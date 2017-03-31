@@ -28,6 +28,21 @@ E. Add the following line `extension=mongodb.so` to your php.ini file
 
 #### Note: The preceding step is mandatory; if you don’t do this, then the MongoDB commands in php will not function.
 
+## Running Backend Application for tweets_sandy.csv dataset:
+
+##### Prerequisites:
+##### 1.Save searchEngine_Tweets.html and searchEngine_Tweets.php files in your home directory 
+##### 2.Download searchEngine_Tweets.html collection from http://kelvin.ist.rit.edu/~mjmic and save it in your home directory
+##### 3.Import tweets dataset 
+##### (Note: Make sure you exit the mongo shell (using exit) and issue  the following command at the system prompt)
+##### `mongoimport --headerline --db users --collection tweets_sandy --drop --type csv --file tweets_sandy.csv`  
+##### 4.Start mongo client by running `mongo`
+##### 5.Access Users database by running `use users`            
+##### 6.Show that you have tweets_sandy collection under users database by running `show collections`  
+##### 7.Exit mongo client by running `exit` 
+
+## Running Backend Application for Amazon_Automotive.json dataset:
+
 
 
 
