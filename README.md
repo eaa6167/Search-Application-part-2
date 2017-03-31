@@ -1,3 +1,4 @@
+
 .
 # Search-Application-part-2
  Search Application is an application that can be used to search tweets or comparable data of your choice.     
@@ -40,8 +41,11 @@ E. Add the following line `extension=mongodb.so` to your php.ini file
 `mongoimport --headerline --db users --collection tweets_sandy --drop --type csv --file tweets_sandy.csv`  
 
 4.Start mongo client by running `mongo`
-5.Access Users database by running `use users`            
-6.Show that you have tweets_sandy collection under users database by running `show collections`  
+
+5.Access Users database by running `use users`  
+
+6.Show that you have tweets_sandy collection under users database by running `show collections` 
+
 7.Exit mongo client by running `exit` 
 
 ## Running Frontend Application for tweets_sandy.csv dataset:
@@ -51,13 +55,19 @@ E. Add the following line `extension=mongodb.so` to your php.ini file
 ## Running Backend Application for Amazon_Automotive.json dataset:
 ##### Prerequisites:
 1.Save searchEngine_Amazon.html and searchEngine_Amazon.php files in your home directory 
+
 2.Download searchEngine_Tweets.html collection from RIT myCourses/Drop Box and save it in your home directory
+
 3.Import amazon dataset 
 #### Note: Make sure you exit the mongo shell (using exit) and issue  the following command at the system prompt)
 `mongoimport --db users --collection Amazon_Automotive --drop --jsonArray --file Amazon_Automotive.json`  
+
 4.Start mongo client by running `mongo`
+
 5.Access Users database by running `use users`            
+
 6.Show that you have tweets_sandy collection under users database by running `show collections`  
+
 7.Exit mongo client by running `exit`
 
 ## Running Frontend Application for Amazon_Automotive.json dataset:
