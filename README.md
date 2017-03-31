@@ -23,7 +23,7 @@ C. Install Pecl to install PHP mongodb driver`
 ##### `composer require mongodb/mongodb`
 D. Check php version using `php -v`
 E. Add the following line `extension=mongodb.so` to your php.ini file
-#####  To find the php.ini file on your system, you can use the grep command in your shell: `php –i | grep Configuration`.Scroll down to the extensions section (under Windows extension section) , and add the following line `extension=mongodb.so` to tell PHP to load the MongoDB driver.
+#####  To find the php.ini file on your system, you can use the grep command in your shell: `php –i | grep Configuration`.Use the URL by pointing to your php version in previous step  file:///etc/php/7.0/cli/php.ini .Scroll down to the extensions section (under Windows extension section) , and add the following line `extension=mongodb.so` to tell PHP to load the MongoDB driver.
 #### Note: The preceding step is mandatory; if you don’t do this, then the MongoDB commands in php will not function.
 
 
