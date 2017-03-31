@@ -66,7 +66,7 @@ E. Add the following line `extension=mongodb.so` to your php.ini file
 
 5.Access Users database by running `use users`            
 
-6.Show that you have tweets_sandy collection under users database by running `show collections`  
+6.Show that you have Amazon_Automotive collection under users database by running `show collections`  
 
 7.Exit mongo client by running `exit`
 
