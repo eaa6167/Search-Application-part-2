@@ -46,9 +46,20 @@ E. Add the following line `extension=mongodb.so` to your php.ini file
 2. Load from the browser and type "barbaratalia" , for instance , in the search text box and click submit. It should display list of documents containing the word "barbaratalia".
 
 ## Running Backend Application for Amazon_Automotive.json dataset:
+##### Prerequisites:
+1.Save searchEngine_Amazon.html and searchEngine_Amazon.php files in your home directory 
+2.Download searchEngine_Tweets.html collection from RIT myCourses/Drop Box and save it in your home directory
+3.Import amazon dataset 
+#### Note: Make sure you exit the mongo shell (using exit) and issue  the following command at the system prompt)
+`mongoimport --db users --collection Amazon_Automotive --drop --jsonArray --file Amazon_Automotive.json`  
+4.Start mongo client by running `mongo`
+5.Access Users database by running `use users`            
+6.Show that you have tweets_sandy collection under users database by running `show collections`  
+7.Exit mongo client by running `exit`
 
 ## Running Frontend Application for Amazon_Automotive.json dataset:
-
+1. Save searchEngine_Amazon.html file in /var/www/html
+2. Load from the browser and type "foo" , for instance , in the search text box and click submit. It should display list of documents containing the word "foo".
 
 
 
