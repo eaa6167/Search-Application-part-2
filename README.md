@@ -1,5 +1,4 @@
 
-.
 # Search-Application-part-2
  Search Application is an application that can be used to search tweets or comparable data of your choice.     
 #####  This document contains details on Installing and Running this application using Tweet and Amazon datasets.  
@@ -62,7 +61,7 @@ E. Add the following line `extension=mongodb.so` to your php.ini file
 #### Note: Make sure you exit the mongo shell (using exit) and issue  the following command at the system prompt)
 `mongoimport --db users --collection Amazon_Automotive --drop --jsonArray --file Amazon_Automotive.json`  
 
-4.Start mongo client by running `mongo`
+4.Start mongo client by running `mongo`g
 
 5.Access Users database by running `use users`            
 
