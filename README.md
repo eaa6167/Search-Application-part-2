@@ -33,7 +33,7 @@ E. Add the following line `extension=mongodb.so` to your php.ini file
 ##### Prerequisites:
 1.Save searchEngine_Tweets.html and searchEngine_Tweets.php files in your home directory 
 
-2.Download searchEngine_Tweets.html collection from http://kelvin.ist.rit.edu/~mjmic and save it in your home directory
+2.Download tweets_sandy.csv collection from http://kelvin.ist.rit.edu/~mjmic and save it in your home directory
 
 3.Import tweets dataset 
 #### Note: Make sure you exit the mongo shell (using exit) and issue  the following command at the system prompt)
@@ -55,13 +55,13 @@ E. Add the following line `extension=mongodb.so` to your php.ini file
 ##### Prerequisites:
 1.Save searchEngine_Amazon.html and searchEngine_Amazon.php files in your home directory 
 
-2.Download searchEngine_Tweets.html collection from RIT myCourses/Drop Box and save it in your home directory
+2.Download  Amazon_Automotive.json collection from RIT myCourses/Drop Box and save it in your home directory
 
 3.Import amazon dataset 
 #### Note: Make sure you exit the mongo shell (using exit) and issue  the following command at the system prompt)
 `mongoimport --db users --collection Amazon_Automotive --drop --jsonArray --file Amazon_Automotive.json`  
 
-4.Start mongo client by running `mongo`g
+4.Start mongo client by running `mongo`
 
 5.Access Users database by running `use users`            
 
