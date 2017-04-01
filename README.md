@@ -53,7 +53,7 @@ E. Add the following line `extension=mongodb.so` to your php.ini file
 
 ## Running Backend Application for Amazon_Automotive.json dataset:
 ##### Prerequisites:
-1.Save searchEngine_Amazon.html and searchEngine_Amazon.php files in your home directory 
+1.Save searchEngine_Amazon.html and searchCollection.php files in your home directory 
 
 2.Download  Amazon_Automotive.json collection from RIT myCourses/Drop Box and save it in your home directory
 
