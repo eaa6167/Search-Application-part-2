@@ -1,4 +1,4 @@
-
+ 
 # Search-Application-part-2
  Search Application is an application that can be used to search tweets or comparable data of your choice.     
 #####  This document contains details on Installing and Running this application using Tweet and Amazon datasets.  
@@ -24,7 +24,7 @@ C. Install Pecl to install PHP mongodb driver`
 D. Check php version using `php -v`
 
 E. Add the following line `extension=mongodb.so` to your php.ini file
-#####  To find the php.ini file on your system, you can use the grep command in your shell: `php –i | grep Configuration`.Use the URL by pointing to your php version in previous step to the follwing URL  file:///etc/php/7.0/cli/php.ini .Scroll down to the extensions section (under Windows extension section) , and add the following line `extension=mongodb.so` to tell PHP to load the MongoDB driver.
+#####  To find the php.ini file on your system, you can use the grep command in your shell: `php –i | grep Configuration`.Use the follwing URL by pointing to your php version in previous step to  file:///etc/php/7.0/cli/php.ini .Scroll down to the extensions section (under Windows extension section) , and add the following line `extension=mongodb.so` to tell PHP to load the MongoDB driver.
 
 #### Note: The preceding step is mandatory; if you don’t do this, then the MongoDB commands in php will not function.
 
