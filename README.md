@@ -11,7 +11,7 @@ A. Check if PHP and apache2 are already installed by running the following comma
 ##### `/usr/bin/php`
 ##### `/usr/sbin/apache2` (if apache2 is not installed , please run the follwing command `sudo apt-get install apache2`)
 B. Install PHP and PHP mongodb driver
-##### `sudo apt-get update`
+s##### `sudo apt-get update`
 ##### `sudo apt-get upgrade`
 ##### `sudo apt-get install php`
 ##### `sudo apt-get install php-mongodb`
@@ -21,7 +21,7 @@ C. Install Pecl to install PHP mongodb driver`
 ##### `sudo pecl install mongodb`
 ##### `sudo apt install composer`
 ##### `composer require mongodb/mongodb`
-D. Check php version using `php -v`
+uD. Check php version using `php -v`
 
 E. Add the following line `extension=mongodb.so` to your php.ini file
 #####  To find the php.ini file on your system, you can use the grep command in your shell: `php –i | grep Configuration`.Use the URL by pointing to your php version in previous step to the follwing URL  file:///etc/php/7.0/cli/php.ini .Scroll down to the extensions section (under Windows extension section) , and add the following line `extension=mongodb.so` to tell PHP to load the MongoDB driver.
@@ -49,7 +49,7 @@ E. Add the following line `extension=mongodb.so` to your php.ini file
 
 ## Running Frontend Application for tweets_sandy.csv dataset:
 1. Save searchEngine_Tweets.html file in /var/www/html
-2. Load from the browser and type "barbaratalia" , for instance , in the search text box and click submit. It should display list of documents containing the word "barbaratalia".
+2. Load from the browser using http://localhost/searchEngine_Tweets.html  and type "barbaratalia" , for instance , in the search text box and click submit. It should display list of documents containing the word "barbaratalia".
 
 ## Running Backend Application for Amazon_Automotive.json dataset:
 ##### Prerequisites:
@@ -71,7 +71,7 @@ E. Add the following line `extension=mongodb.so` to your php.ini file
 
 ## Running Frontend Application for Amazon_Automotive.json dataset:
 1. Save searchEngine_Amazon.html file in /var/www/html
-2. Load from the browser and type "foo" , for instance , in the search text box and click submit. It should display list of documents containing the word "foo".
+2. Load from the browser using http://localhost/searchEngine_Amazon.html and type "foo" , for instance , in the search text box and click submit. It should display list of documents containing the word "foo".
 
 
 
