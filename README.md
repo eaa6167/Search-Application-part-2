@@ -11,7 +11,7 @@ A. Check if PHP and apache2 are already installed by running the following comma
 ##### `/usr/bin/php`
 ##### `/usr/sbin/apache2` (if apache2 is not installed , please run the follwing command `sudo apt-get install apache2`)
 B. Install PHP and PHP mongodb driver
-s##### `sudo apt-get update`
+##### `sudo apt-get update`
 ##### `sudo apt-get upgrade`
 ##### `sudo apt-get install php`
 ##### `sudo apt-get install php-mongodb`
