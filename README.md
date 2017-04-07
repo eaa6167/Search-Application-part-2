@@ -1,4 +1,5 @@
- 
+
+
 # Search-Application-part-2
  Search Application is an application that can be used to search tweets or comparable data of your choice.     
 #####  This document contains details on Installing and Running this application using Tweet and Amazon datasets.  
@@ -15,6 +16,7 @@ B. Install PHP and PHP mongodb driver
 ##### `sudo apt-get upgrade`
 ##### `sudo apt-get install php`
 ##### `sudo apt-get install php-mongodb`
+##### `sudo apt-get install libapache2-mod-php`
 C. Install Pecl to install PHP mongodb driver`
 ##### `sudo apt-get install php-pear`
 ##### `sudo apt-get install php-dev`
